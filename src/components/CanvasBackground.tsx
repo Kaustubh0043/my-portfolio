@@ -32,16 +32,16 @@ export default function CanvasBackground() {
 
     const initParticles = () => {
       particles = [];
-      const density = 60; // Base density divider
-      const count = Math.min(100, Math.floor((canvas.width * canvas.height) / (density * density * 3.5)));
+      const density = 70; // Base density divider
+      const count = Math.min(50, Math.floor((canvas.width * canvas.height) / (density * density * 3.5)));
       
       for (let i = 0; i < count; i++) {
         particles.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          vx: (Math.random() - 0.5) * 0.4,
-          vy: (Math.random() - 0.5) * 0.4,
-          radius: Math.random() * 1.5 + 1,
+          vx: (Math.random() - 0.5) * 0.35, // slightly slower, smoother speed
+          vy: (Math.random() - 0.5) * 0.35,
+          radius: Math.random() * 1.2 + 0.8,
         });
       }
     };

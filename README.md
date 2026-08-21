@@ -10,6 +10,22 @@ A stunning, premium developer portfolio built with React 19, Vite, TypeScript, a
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Hero Section
+![Hero Section](screenshots/hero.png)
+
+### 📊 Featured Projects
+![Featured Projects](screenshots/projects.png)
+
+### 🏆 Certifications
+![Certifications Grid](screenshots/certifications.png)
+
+### 🔎 Elevated Lightbox Modal
+![Lightbox Modal](screenshots/lightbox.png)
+
+---
+
 ## 🌟 Key Features
 
 1. **Interactive Network Canvas:**

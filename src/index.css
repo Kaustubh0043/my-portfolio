@@ -112,6 +112,8 @@ a {
   border: 1px solid var(--border-color);
   border-radius: 16px;
   transition: var(--transition-smooth);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 .glass-panel:hover {
@@ -386,6 +388,9 @@ a {
   height: 100vh;
   z-index: 0;
   pointer-events: auto;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 /* About / Skills Section */
