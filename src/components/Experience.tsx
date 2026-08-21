@@ -1,6 +1,25 @@
 export default function Experience() {
   const experiences = [
     {
+      role: 'Junior Full Stack Developer Intern',
+      org: 'YuvaIntern',
+      type: 'Internship',
+      location: 'Remote',
+      date: 'Jul 2026 – Aug 2026',
+      duration: '6 weeks',
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+        </svg>
+      ),
+      bullets: [
+        'Assisted in the design, development, and maintenance of responsive full stack web applications using front-end and back-end frameworks.',
+        'Collaborated with cross-functional team members to implement clean user interfaces and deliver high-quality programmatic solutions.',
+        'Participated in hands-on task management, code debugging, and developer workshops to solve real-world coding problems.',
+      ],
+    },
+    {
       role: 'Java Programming Intern',
       org: 'Anudip Foundation',
       type: 'Internship',
