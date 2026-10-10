@@ -84,7 +84,7 @@ export default function Hero() {
               </svg>
             </button>
             <a 
-              href="/Kaustubh_Jadhav_Resume.pdf" 
+              href="/certifications/Kaustubh_Jadhav_Resume.pdf"
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-secondary"
