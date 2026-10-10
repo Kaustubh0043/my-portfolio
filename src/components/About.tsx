@@ -9,7 +9,7 @@ export default function About() {
           <line x1="12" y1="17" x2="12" y2="21" />
         </svg>
       ),
-      skills: ['React.js', 'Next.js', 'Angular', 'Tailwind CSS', 'Bootstrap', 'HTML5', 'CSS3', 'TypeScript'],
+      skills: ['React.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'HTML5', 'CSS3', 'TypeScript'],
     },
     {
       title: 'Backend & APIs',
@@ -40,7 +40,7 @@ export default function About() {
           <polyline points="8 6 2 12 8 18" />
         </svg>
       ),
-      skills: ['Java (Advanced)', 'JavaScript', 'TypeScript', 'Python', 'C'],
+      skills: ['Java', 'JavaScript', 'Python', 'SQL'],
     },
     {
       title: 'DevOps & Tools',

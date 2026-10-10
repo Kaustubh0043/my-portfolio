@@ -5,7 +5,7 @@ export default function Projects() {
       desc: 'An all-in-one, microservice-ready AI Career Development Platform helping users optimize career readiness with LLMs and RAG.',
       tech: ['React', 'Spring Boot', 'FastAPI', 'PostgreSQL', 'Docker', 'Google Gemini API'],
       github: 'https://github.com/Kaustubh0043/vertexpath',
-      demo: 'https://pathpilot-ai-gilt.vercel.app/',
+      demo: 'https://vertexpath.vercel.app/',
       bullets: [
         'Architected a microservice-ready career platform combining a Spring Boot + JWT core, a FastAPI/LangChain AI microservice, and a React/Vite frontend, orchestrated with Docker Compose.',
         'Built an ATS resume analyzer, job-description matching engine, and a RAG-based document Q&A system using ChromaDB and Google Gemini for context-grounded responses.',
