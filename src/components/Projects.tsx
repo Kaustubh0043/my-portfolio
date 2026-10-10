@@ -1,7 +1,7 @@
 export default function Projects() {
   const projects = [
     {
-      title: 'PathPilot AI — AI Career Platform',
+      title: 'VertexPath AI — AI Career Platform',
       desc: 'An all-in-one, microservice-ready AI Career Development Platform helping users optimize career readiness with LLMs and RAG.',
       tech: ['React', 'Spring Boot', 'FastAPI', 'PostgreSQL', 'Docker', 'Google Gemini API'],
       github: 'https://github.com/Kaustubh0043/vertexpath',
